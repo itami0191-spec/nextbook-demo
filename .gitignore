@@ -7,3 +7,8 @@ Thumbs.db
 !.env.example
 .cursor/
 *.log
+_r.js
+_t.txt
+t2.txt
+w.js
+neu_fragment.txt
