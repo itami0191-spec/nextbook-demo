@@ -1,0 +1,2276 @@
+[
+  {
+    "id": "one-hundred-years",
+    "title": "百年孤独",
+    "author": "加西亚·马尔克斯",
+    "year": 1967,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "家族史",
+      "魔幻现实",
+      "命运"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 62,
+      "authorOther": 85,
+      "themes": 94,
+      "custom": 70
+    },
+    "links": [
+      "拉美叙事谱系核心文本"
+    ]
+  },
+  {
+    "id": "kafka-metamorphosis",
+    "title": "变形记",
+    "author": "卡夫卡",
+    "year": 1915,
+    "literary_movement": "现代主义",
+    "tags": [
+      "异化",
+      "孤独",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 95,
+      "contemporary": 72,
+      "authorOther": 84,
+      "themes": 90,
+      "custom": 76
+    },
+    "links": [
+      "现代主义关键节点"
+    ]
+  },
+  {
+    "id": "the-stranger",
+    "title": "局外人",
+    "author": "加缪",
+    "year": 1942,
+    "literary_movement": "存在主义",
+    "tags": [
+      "存在意义",
+      "异化",
+      "善恶边界"
+    ],
+    "dimensions": {
+      "lineage": 92,
+      "contemporary": 68,
+      "authorOther": 82,
+      "themes": 93,
+      "custom": 78
+    },
+    "links": [
+      "存在主义语境代表作"
+    ]
+  },
+  {
+    "id": "room-of-ones-own",
+    "title": "一间自己的房间",
+    "author": "弗吉尼亚·伍尔夫",
+    "year": 1929,
+    "literary_movement": "现代主义",
+    "tags": [
+      "性别",
+      "身份认同",
+      "自由意志"
+    ],
+    "dimensions": {
+      "lineage": 87,
+      "contemporary": 74,
+      "authorOther": 76,
+      "themes": 89,
+      "custom": 75
+    },
+    "links": [
+      "女性写作史关键文本"
+    ]
+  },
+  {
+    "id": "to-live",
+    "title": "活着",
+    "author": "余华",
+    "year": 1993,
+    "literary_movement": "中国当代文学",
+    "tags": [
+      "历史重压",
+      "底层生存",
+      "家族史"
+    ],
+    "dimensions": {
+      "lineage": 68,
+      "contemporary": 92,
+      "authorOther": 88,
+      "themes": 91,
+      "custom": 70
+    },
+    "links": [
+      "当代汉语叙事代表作"
+    ]
+  },
+  {
+    "id": "dream-red-chamber",
+    "title": "红楼梦",
+    "author": "曹雪芹",
+    "year": 1791,
+    "literary_movement": "现代主义",
+    "tags": [
+      "家族史",
+      "命运",
+      "父权"
+    ],
+    "dimensions": {
+      "lineage": 99,
+      "contemporary": 42,
+      "authorOther": 55,
+      "themes": 94,
+      "custom": 72
+    },
+    "links": [
+      "中国古典长篇高峰"
+    ]
+  },
+  {
+    "id": "crime-and-punishment",
+    "title": "罪与罚",
+    "author": "陀思妥耶夫斯基",
+    "year": 1866,
+    "literary_movement": "东欧文学",
+    "tags": [
+      "罪与罚",
+      "善恶边界",
+      "自由意志"
+    ],
+    "dimensions": {
+      "lineage": 96,
+      "contemporary": 55,
+      "authorOther": 88,
+      "themes": 93,
+      "custom": 74
+    },
+    "links": [
+      "心理与伦理叙事典范"
+    ]
+  },
+  {
+    "id": "nineteen-eighty-four",
+    "title": "1984",
+    "author": "乔治·奥威尔",
+    "year": 1949,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "极权",
+      "革命",
+      "谎言与真实"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 76,
+      "authorOther": 80,
+      "themes": 92,
+      "custom": 74
+    },
+    "links": [
+      "政治寓言地标文本"
+    ]
+  },
+  {
+    "id": "three-body",
+    "title": "三体",
+    "author": "刘慈欣",
+    "year": 2008,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "存在意义",
+      "命运",
+      "历史重压"
+    ],
+    "dimensions": {
+      "lineage": 64,
+      "contemporary": 94,
+      "authorOther": 88,
+      "themes": 86,
+      "custom": 80
+    },
+    "links": [
+      "当代中文科幻里程碑"
+    ]
+  },
+  {
+    "id": "old-man-and-sea",
+    "title": "老人与海",
+    "author": "海明威",
+    "year": 1952,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "命运",
+      "自由意志",
+      "土地"
+    ],
+    "dimensions": {
+      "lineage": 83,
+      "contemporary": 74,
+      "authorOther": 86,
+      "themes": 84,
+      "custom": 72
+    },
+    "links": [
+      "极简叙事经典范例"
+    ]
+  },
+  {
+    "id": "beloved-morrison",
+    "title": "宠儿",
+    "author": "托妮·莫里森",
+    "year": 1987,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "创伤与愈合",
+      "历史重压",
+      "种族"
+    ],
+    "dimensions": {
+      "lineage": 82,
+      "contemporary": 86,
+      "authorOther": 84,
+      "themes": 93,
+      "custom": 76
+    },
+    "links": [
+      "历史幽灵与私人记忆交织"
+    ]
+  },
+  {
+    "id": "never-let-me-go",
+    "title": "别让我走",
+    "author": "石黑一雄",
+    "year": 2005,
+    "literary_movement": "日本文学",
+    "tags": [
+      "失去",
+      "命运",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 74,
+      "contemporary": 92,
+      "authorOther": 88,
+      "themes": 91,
+      "custom": 80
+    },
+    "links": [
+      "制度与个体伦理冲突"
+    ]
+  },
+  {
+    "id": "ol-the-dark-forest-the-three-body-problem-series-bo-刘慈欣",
+    "title": "The Dark Forest (The Three-Body Problem Series Book 2)",
+    "author": "刘慈欣",
+    "year": 2008,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "历史重压",
+      "时间流逝",
+      "背叛",
+      "谎言与真实"
+    ],
+    "dimensions": {
+      "lineage": 64,
+      "contemporary": 88,
+      "authorOther": 72,
+      "themes": 85,
+      "custom": 84
+    },
+    "links": [
+      "主题线索：Chinese Science fiction",
+      "Open Library：/works/OL16314245W"
+    ]
+  },
+  {
+    "id": "ol-the-joy-luck-club-amy-tan",
+    "title": "The Joy Luck Club",
+    "author": "Amy Tan",
+    "year": 1989,
+    "literary_movement": "后殖民文学",
+    "tags": [
+      "失去",
+      "背叛",
+      "谎言与真实",
+      "友谊"
+    ],
+    "dimensions": {
+      "lineage": 69,
+      "contemporary": 80,
+      "authorOther": 72,
+      "themes": 81,
+      "custom": 70
+    },
+    "links": [
+      "主题线索：Chinese American",
+      "Open Library：/works/OL1843720W"
+    ]
+  },
+  {
+    "id": "ol-le-fant-me-de-l-op-ra-gaston-leroux",
+    "title": "Le fantôme de l'opéra",
+    "author": "Gaston Leroux",
+    "year": 1911,
+    "literary_movement": "现代主义",
+    "tags": [
+      "历史重压",
+      "时间流逝",
+      "爱情",
+      "婚姻"
+    ],
+    "dimensions": {
+      "lineage": 94,
+      "contemporary": 58,
+      "authorOther": 72,
+      "themes": 85,
+      "custom": 70
+    },
+    "links": [
+      "主题线索：Fiction",
+      "Open Library：/works/OL1833989W"
+    ]
+  },
+  {
+    "id": "ol-norwegian-wood-村上春樹",
+    "title": "Norwegian Wood",
+    "author": "村上春樹",
+    "year": 1987,
+    "literary_movement": "日本文学",
+    "tags": [
+      "爱情",
+      "婚姻",
+      "背叛",
+      "谎言与真实"
+    ],
+    "dimensions": {
+      "lineage": 70,
+      "contemporary": 79,
+      "authorOther": 72,
+      "themes": 85,
+      "custom": 70
+    },
+    "links": [
+      "主题线索：Student",
+      "Open Library：/works/OL2625457W"
+    ]
+  },
+  {
+    "id": "ol-death-s-end-the-three-body-problem-series-book-3-刘慈欣",
+    "title": "Death's End (The Three-Body Problem Series Book 3)",
+    "author": "刘慈欣",
+    "year": 2010,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "历史重压",
+      "时间流逝",
+      "背叛",
+      "谎言与真实"
+    ],
+    "dimensions": {
+      "lineage": 63,
+      "contemporary": 88,
+      "authorOther": 72,
+      "themes": 85,
+      "custom": 84
+    },
+    "links": [
+      "主题线索：Fiction",
+      "Open Library：/works/OL17610507W"
+    ]
+  },
+  {
+    "id": "ol-le-comte-de-monte-cristo-alexandre-dumas",
+    "title": "Le Comte de Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1830,
+    "literary_movement": "现代主义",
+    "tags": [
+      "历史重压",
+      "时间流逝",
+      "爱情",
+      "婚姻"
+    ],
+    "dimensions": {
+      "lineage": 98,
+      "contemporary": 54,
+      "authorOther": 72,
+      "themes": 85,
+      "custom": 70
+    },
+    "links": [
+      "主题线索：France -- History -- 19th century -- Fic",
+      "Open Library：/works/OL36287W"
+    ]
+  },
+  {
+    "id": "ol-the-kitchen-god-s-wife-amy-tan",
+    "title": "The Kitchen God's Wife",
+    "author": "Amy Tan",
+    "year": 1991,
+    "literary_movement": "后殖民文学",
+    "tags": [
+      "背叛",
+      "谎言与真实",
+      "友谊",
+      "家族史"
+    ],
+    "dimensions": {
+      "lineage": 76,
+      "contemporary": 83,
+      "authorOther": 72,
+      "themes": 81,
+      "custom": 70
+    },
+    "links": [
+      "主题线索：Chinese fiction",
+      "Open Library：/works/OL15821869W"
+    ]
+  },
+  {
+    "id": "ol-the-godfather-mario-puzo",
+    "title": "The Godfather",
+    "author": "Mario Puzo",
+    "year": 1969,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "爱情",
+      "婚姻",
+      "家族史",
+      "童年"
+    ],
+    "dimensions": {
+      "lineage": 74,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 88,
+      "custom": 75
+    },
+    "links": [
+      "主题线索：Detective and mystery stories",
+      "Open Library：/works/OL1673205W"
+    ]
+  },
+  {
+    "id": "rulfo-pedro-paramo",
+    "title": "Pedro Paramo",
+    "author": "Juan Rulfo",
+    "year": 1955,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "魔幻现实",
+      "命运",
+      "记忆与遗忘"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "rulfo-burning-plain",
+    "title": "The Burning Plain",
+    "author": "Juan Rulfo",
+    "year": 1967,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "土地",
+      "魔幻现实",
+      "底层生存"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "cortazar-hopscotch",
+    "title": "Hopscotch",
+    "author": "Julio Cortazar",
+    "year": 1963,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "元小说",
+      "叙事本身",
+      "疯狂与理性"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "cortazar-all-fires",
+    "title": "All Fires the Fire",
+    "author": "Julio Cortazar",
+    "year": 1966,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "背叛",
+      "失去",
+      "魔幻现实"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "vargas-time-hero",
+    "title": "The Time of the Hero",
+    "author": "Mario Vargas Llosa",
+    "year": 1963,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "童年",
+      "阶级",
+      "底层生存"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "vargas-aunt-julia",
+    "title": "Aunt Julia and the Scriptwriter",
+    "author": "Mario Vargas Llosa",
+    "year": 1977,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "爱情",
+      "婚姻",
+      "元小说"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "vargas-conversation",
+    "title": "Conversation in the Cathedral",
+    "author": "Mario Vargas Llosa",
+    "year": 1969,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "谎言与真实",
+      "阶级",
+      "记忆与遗忘"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "garcia-cholera",
+    "title": "Love in the Time of Cholera",
+    "author": "Gabriel Garcia Marquez",
+    "year": 1985,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "爱情",
+      "时间流逝",
+      "命运"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "garcia-patriarch",
+    "title": "The Autumn of the Patriarch",
+    "author": "Gabriel Garcia Marquez",
+    "year": 1975,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "极权",
+      "孤独",
+      "魔幻现实"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "carpentier-kingdom",
+    "title": "The Kingdom of This World",
+    "author": "Alejo Carpentier",
+    "year": 1967,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "历史重压",
+      "革命",
+      "魔幻现实"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "carpentier-lost-steps",
+    "title": "The Lost Steps",
+    "author": "Alejo Carpentier",
+    "year": 1953,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "身份认同",
+      "记忆与遗忘",
+      "土地"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "asturias-men-maize",
+    "title": "Men of Maize",
+    "author": "Miguel Angel Asturias",
+    "year": 1949,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "土地",
+      "殖民",
+      "神话原型"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "borges-aleph",
+    "title": "The Aleph",
+    "author": "Jorge Luis Borges",
+    "year": 1949,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "命运",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "borges-book-sand",
+    "title": "The Book of Sand",
+    "author": "Jorge Luis Borges",
+    "year": 1975,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "命运",
+      "沉默",
+      "元小说"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "borges-brodie",
+    "title": "Doctor Brodie's Report",
+    "author": "Jorge Luis Borges",
+    "year": 1970,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "记忆与遗忘",
+      "背叛",
+      "沉默"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "borges-inquisitions",
+    "title": "Other Inquisitions",
+    "author": "Jorge Luis Borges",
+    "year": 1952,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "叙事本身",
+      "谎言与真实",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "allende-house",
+    "title": "The House of the Spirits",
+    "author": "Isabel Allende",
+    "year": 1982,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "家族史",
+      "创伤与愈合",
+      "性别"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "arguedas-deep-rivers",
+    "title": "Deep Rivers",
+    "author": "Jose Maria Arguedas",
+    "year": 1958,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "身份认同",
+      "阶级",
+      "土地"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "onetti-brief-life",
+    "title": "A Brief Life",
+    "author": "Juan Carlos Onetti",
+    "year": 1950,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "孤独",
+      "失去",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "donoso-bird",
+    "title": "The Obscene Bird of Night",
+    "author": "Jose Donoso",
+    "year": 1970,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "阶级",
+      "家族史",
+      "疯狂与理性"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "infante-tigers",
+    "title": "Three Trapped Tigers",
+    "author": "Guillermo Cabrera Infante",
+    "year": 1967,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "怀旧",
+      "谎言与真实",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "marquez-chronicle",
+    "title": "Chronicle of a Death Foretold",
+    "author": "Gabriel Garcia Marquez",
+    "year": 1981,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "命运",
+      "罪与罚",
+      "记忆与遗忘"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "fuentes-artemio",
+    "title": "The Death of Artemio Cruz",
+    "author": "Carlos Fuentes",
+    "year": 1962,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "革命",
+      "记忆与遗忘",
+      "历史重压"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "vargas-war-end",
+    "title": "The War of the End of the World",
+    "author": "Mario Vargas Llosa",
+    "year": 1981,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "历史重压",
+      "革命",
+      "疯狂与理性"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 74,
+      "authorOther": 74,
+      "themes": 89,
+      "custom": 74
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "baldwin-another",
+    "title": "Another Country",
+    "author": "James Baldwin",
+    "year": 1962,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "种族",
+      "爱情",
+      "身份认同"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "roth-portnoy",
+    "title": "Portnoy's Complaint",
+    "author": "Philip Roth",
+    "year": 1969,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "童年",
+      "执念",
+      "婚姻"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "updike-rabbit",
+    "title": "Rabbit, Run",
+    "author": "John Updike",
+    "year": 1960,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "婚姻",
+      "阶级",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "spark-brodie",
+    "title": "The Prime of Miss Jean Brodie",
+    "author": "Muriel Spark",
+    "year": 1961,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "执念",
+      "背叛"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "lecarre-spy",
+    "title": "The Spy Who Came in from the Cold",
+    "author": "John le Carre",
+    "year": 1963,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "背叛",
+      "谎言与真实"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "pynchon-lot49",
+    "title": "The Crying of Lot 49",
+    "author": "Thomas Pynchon",
+    "year": 1966,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "元小说",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "didion-play",
+    "title": "Play It as It Lays",
+    "author": "Joan Didion",
+    "year": 1970,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "失去",
+      "记忆与遗忘",
+      "怀旧"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "morrison-sula",
+    "title": "Sula",
+    "author": "Toni Morrison",
+    "year": 1973,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "友谊",
+      "种族",
+      "性别"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "doctorow-ragtime",
+    "title": "Ragtime",
+    "author": "E.L. Doctorow",
+    "year": 1975,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "历史重压",
+      "家族史",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "gaddis-recognitions",
+    "title": "The Recognitions",
+    "author": "William Gaddis",
+    "year": 1955,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "元小说",
+      "执念",
+      "谎言与真实"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "nabokov-pale-fire",
+    "title": "Pale Fire",
+    "author": "Vladimir Nabokov",
+    "year": 1962,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "元小说",
+      "谎言与真实",
+      "疯狂与理性"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "lessing-golden",
+    "title": "The Golden Notebook",
+    "author": "Doris Lessing",
+    "year": 1962,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "性别",
+      "自由意志",
+      "记忆与遗忘"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "murakami-wild-sheep",
+    "title": "A Wild Sheep Chase",
+    "author": "Haruki Murakami",
+    "year": 1982,
+    "literary_movement": "日本文学",
+    "tags": [
+      "孤独",
+      "命运",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 86,
+      "contemporary": 74,
+      "authorOther": 72,
+      "themes": 87,
+      "custom": 72
+    },
+    "links": [
+      "books.json"
+    ]
+  },
+  {
+    "id": "hand-e4bda9e5beb7e7bd",
+    "title": "佩德罗·巴拉莫",
+    "author": "胡安·鲁尔福",
+    "year": 1955,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "革命",
+      "存在意义",
+      "元小说"
+    ],
+    "dimensions": {
+      "lineage": 78,
+      "contemporary": 63,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 魔幻现实主义"
+    ]
+  },
+  {
+    "id": "hand-e78e89e7b1b3e4ba",
+    "title": "玉米人",
+    "author": "米格尔·安赫尔·阿斯图里亚斯",
+    "year": 1949,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "友谊",
+      "父权"
+    ],
+    "dimensions": {
+      "lineage": 79,
+      "contemporary": 61,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 魔幻现实主义"
+    ]
+  },
+  {
+    "id": "hand-e5b9bde781b5e4b9",
+    "title": "幽灵之家",
+    "author": "伊莎贝尔·阿连德",
+    "year": 1982,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "时间流逝",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 71,
+      "contemporary": 71,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 魔幻现实主义"
+    ]
+  },
+  {
+    "id": "hand-e788b1e68385e4b8",
+    "title": "爱情与其他魔鬼",
+    "author": "加西亚·马尔克斯",
+    "year": 1994,
+    "literary_movement": "魔幻现实主义",
+    "tags": [
+      "爱情",
+      "身份认同",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 75,
+      "contemporary": 77,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 魔幻现实主义"
+    ]
+  },
+  {
+    "id": "hand-e681b6e5bf83e890",
+    "title": "恶心",
+    "author": "萨特",
+    "year": 1938,
+    "literary_movement": "存在主义",
+    "tags": [
+      "时间流逝",
+      "友谊",
+      "存在意义",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 82,
+      "contemporary": 58,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 存在主义"
+    ]
+  },
+  {
+    "id": "hand-e9bca0e796abe58a",
+    "title": "鼠疫",
+    "author": "加缪",
+    "year": 1947,
+    "literary_movement": "存在主义",
+    "tags": [
+      "革命",
+      "爱情",
+      "土地",
+      "罪与罚"
+    ],
+    "dimensions": {
+      "lineage": 80,
+      "contemporary": 61,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 存在主义"
+    ]
+  },
+  {
+    "id": "hand-e8a5bfe8a5bfe5bc",
+    "title": "西西弗神话",
+    "author": "加缪",
+    "year": 1942,
+    "literary_movement": "存在主义",
+    "tags": [
+      "土地",
+      "孤独",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 81,
+      "contemporary": 59,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 存在主义"
+    ]
+  },
+  {
+    "id": "hand-e7a681e997ade890",
+    "title": "禁闭",
+    "author": "萨特",
+    "year": 1944,
+    "literary_movement": "存在主义",
+    "tags": [
+      "罪与罚",
+      "友谊",
+      "父权",
+      "性别"
+    ],
+    "dimensions": {
+      "lineage": 81,
+      "contemporary": 60,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 存在主义"
+    ]
+  },
+  {
+    "id": "hand-e59f8ee5a0a1e58d",
+    "title": "城堡",
+    "author": "卡夫卡",
+    "year": 1926,
+    "literary_movement": "现代主义",
+    "tags": [
+      "元小说",
+      "罪与罚"
+    ],
+    "dimensions": {
+      "lineage": 88,
+      "contemporary": 52,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 现代主义"
+    ]
+  },
+  {
+    "id": "hand-e5b0a4e588a9e8a5",
+    "title": "尤利西斯",
+    "author": "乔伊斯",
+    "year": 1922,
+    "literary_movement": "现代主义",
+    "tags": [
+      "时间流逝",
+      "友谊",
+      "元小说",
+      "土地"
+    ],
+    "dimensions": {
+      "lineage": 89,
+      "contemporary": 52,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 现代主义"
+    ]
+  },
+  {
+    "id": "hand-e8bfbde5bf86e4bc",
+    "title": "追忆似水年华",
+    "author": "普鲁斯特",
+    "year": 1913,
+    "literary_movement": "现代主义",
+    "tags": [
+      "身份认同",
+      "土地",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 89,
+      "contemporary": 51,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 现代主义"
+    ]
+  },
+  {
+    "id": "hand-e588b0e781afe5a1",
+    "title": "到灯塔去",
+    "author": "伍尔夫",
+    "year": 1927,
+    "literary_movement": "现代主义",
+    "tags": [
+      "元小说",
+      "革命",
+      "性别"
+    ],
+    "dimensions": {
+      "lineage": 88,
+      "contemporary": 52,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 现代主义"
+    ]
+  },
+  {
+    "id": "hand-e7a59ee69bb2e4bd",
+    "title": "神曲",
+    "author": "但丁",
+    "year": 1320,
+    "literary_movement": "现代主义",
+    "tags": [
+      "父权",
+      "爱情"
+    ],
+    "dimensions": {
+      "lineage": 98,
+      "contemporary": 42,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 现代主义"
+    ]
+  },
+  {
+    "id": "hand-e799bde599aae99f",
+    "title": "白噪音",
+    "author": "德里罗",
+    "year": 1985,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "身份认同",
+      "元小说",
+      "土地",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 70,
+      "contemporary": 71,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 后现代主义"
+    ]
+  },
+  {
+    "id": "hand-e4b887e69c89e5bc",
+    "title": "万有引力之虹",
+    "author": "品钦",
+    "year": 1973,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "爱情",
+      "身份认同",
+      "元小说",
+      "罪与罚"
+    ],
+    "dimensions": {
+      "lineage": 73,
+      "contemporary": 68,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 后现代主义"
+    ]
+  },
+  {
+    "id": "hand-e8b7afe7a791e9a9",
+    "title": "路",
+    "author": "科马克·麦卡锡",
+    "year": 2006,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "土地",
+      "性别",
+      "父权",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 70,
+      "contemporary": 80,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 后现代主义"
+    ]
+  },
+  {
+    "id": "hand-31393834e5a5a5e5",
+    "title": "1984",
+    "author": "奥威尔",
+    "year": 1949,
+    "literary_movement": "后现代主义",
+    "tags": [
+      "爱情",
+      "存在意义",
+      "罪与罚"
+    ],
+    "dimensions": {
+      "lineage": 79,
+      "contemporary": 61,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 后现代主义"
+    ]
+  },
+  {
+    "id": "hand-e99baae59bbde5b7",
+    "title": "雪国",
+    "author": "川端康成",
+    "year": 1937,
+    "literary_movement": "日本文学",
+    "tags": [
+      "爱情",
+      "友谊"
+    ],
+    "dimensions": {
+      "lineage": 82,
+      "contemporary": 58,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 日本文学"
+    ]
+  },
+  {
+    "id": "hand-e98791e99881e5af",
+    "title": "金阁寺",
+    "author": "三岛由纪夫",
+    "year": 1956,
+    "literary_movement": "日本文学",
+    "tags": [
+      "父权",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 78,
+      "contemporary": 63,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 日本文学"
+    ]
+  },
+  {
+    "id": "hand-e68caae5a881e79a",
+    "title": "挪威的森林",
+    "author": "村上春树",
+    "year": 1987,
+    "literary_movement": "日本文学",
+    "tags": [
+      "时间流逝",
+      "魔幻现实",
+      "罪与罚",
+      "土地"
+    ],
+    "dimensions": {
+      "lineage": 70,
+      "contemporary": 72,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 日本文学"
+    ]
+  },
+  {
+    "id": "hand-e6b5b7e8beb9e79a",
+    "title": "海边的卡夫卡",
+    "author": "村上春树",
+    "year": 2002,
+    "literary_movement": "日本文学",
+    "tags": [
+      "存在意义",
+      "时间流逝"
+    ],
+    "dimensions": {
+      "lineage": 72,
+      "contemporary": 79,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 日本文学"
+    ]
+  },
+  {
+    "id": "hand-e68891e698afe78c",
+    "title": "我是猫",
+    "author": "夏目漱石",
+    "year": 1905,
+    "literary_movement": "日本文学",
+    "tags": [
+      "爱情",
+      "身份认同"
+    ],
+    "dimensions": {
+      "lineage": 90,
+      "contemporary": 51,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 日本文学"
+    ]
+  },
+  {
+    "id": "hand-e5bf83e5a48fe79b",
+    "title": "心",
+    "author": "夏目漱石",
+    "year": 1914,
+    "literary_movement": "日本文学",
+    "tags": [
+      "存在意义",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 89,
+      "contemporary": 51,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 日本文学"
+    ]
+  },
+  {
+    "id": "hand-e995bfe681a8e6ad",
+    "title": "长恨歌",
+    "author": "王安忆",
+    "year": 1995,
+    "literary_movement": "中国当代文学",
+    "tags": [
+      "元小说",
+      "友谊",
+      "时间流逝",
+      "罪与罚"
+    ],
+    "dimensions": {
+      "lineage": 74,
+      "contemporary": 77,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 中国当代文学"
+    ]
+  },
+  {
+    "id": "hand-e6b5aee8ba81e8b4",
+    "title": "浮躁",
+    "author": "贾平凹",
+    "year": 1987,
+    "literary_movement": "中国当代文学",
+    "tags": [
+      "革命",
+      "性别"
+    ],
+    "dimensions": {
+      "lineage": 70,
+      "contemporary": 72,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 中国当代文学"
+    ]
+  },
+  {
+    "id": "hand-e5aeb6e5b7b4e987",
+    "title": "家",
+    "author": "巴金",
+    "year": 1933,
+    "literary_movement": "中国当代文学",
+    "tags": [
+      "友谊",
+      "罪与罚",
+      "身份认同",
+      "父权"
+    ],
+    "dimensions": {
+      "lineage": 83,
+      "contemporary": 57,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 中国当代文学"
+    ]
+  },
+  {
+    "id": "hand-e9aa86e9a9bce7a5",
+    "title": "骆驼祥子",
+    "author": "老舍",
+    "year": 1937,
+    "literary_movement": "中国当代文学",
+    "tags": [
+      "性别",
+      "爱情"
+    ],
+    "dimensions": {
+      "lineage": 82,
+      "contemporary": 58,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 中国当代文学"
+    ]
+  },
+  {
+    "id": "hand-e7acace4b883e5a4",
+    "title": "第七天",
+    "author": "余华",
+    "year": 2013,
+    "literary_movement": "中国当代文学",
+    "tags": [
+      "友谊",
+      "性别",
+      "土地",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 68,
+      "contemporary": 82,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 中国当代文学"
+    ]
+  },
+  {
+    "id": "hand-e4ba86e4b88de8b5",
+    "title": "了不起的盖茨比",
+    "author": "菲茨杰拉德",
+    "year": 1925,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "存在意义",
+      "革命",
+      "性别",
+      "时间流逝"
+    ],
+    "dimensions": {
+      "lineage": 88,
+      "contemporary": 52,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 英美现代主义"
+    ]
+  },
+  {
+    "id": "hand-e5a4aae998b3e785",
+    "title": "太阳照常升起",
+    "author": "海明威",
+    "year": 1926,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "父权",
+      "爱情",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 88,
+      "contemporary": 52,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 英美现代主义"
+    ]
+  },
+  {
+    "id": "hand-e58594e5ad90e8b7",
+    "title": "兔子跑吧",
+    "author": "厄普代克",
+    "year": 1960,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "时间流逝",
+      "身份认同",
+      "土地",
+      "爱情"
+    ],
+    "dimensions": {
+      "lineage": 77,
+      "contemporary": 64,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 英美现代主义"
+    ]
+  },
+  {
+    "id": "hand-e59cb0e4b88be993",
+    "title": "地下铁道",
+    "author": "怀特黑德",
+    "year": 2016,
+    "literary_movement": "英美现代主义",
+    "tags": [
+      "父权",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 67,
+      "contemporary": 83,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 英美现代主义"
+    ]
+  },
+  {
+    "id": "hand-e793a6e8a7a3e998",
+    "title": "瓦解",
+    "author": "阿切贝",
+    "year": 1958,
+    "literary_movement": "后殖民文学",
+    "tags": [
+      "父权",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 77,
+      "contemporary": 64,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 后殖民文学"
+    ]
+  },
+  {
+    "id": "hand-e58d88e5a49ce79a",
+    "title": "午夜的孩子",
+    "author": "鲁西迪",
+    "year": 1981,
+    "literary_movement": "后殖民文学",
+    "tags": [
+      "元小说",
+      "身份认同"
+    ],
+    "dimensions": {
+      "lineage": 71,
+      "contemporary": 70,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 后殖民文学"
+    ]
+  },
+  {
+    "id": "hand-e5beaee789a9e4b9",
+    "title": "微物之神",
+    "author": "阿兰达蒂·洛伊",
+    "year": 1997,
+    "literary_movement": "后殖民文学",
+    "tags": [
+      "友谊",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 74,
+      "contemporary": 78,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 后殖民文学"
+    ]
+  },
+  {
+    "id": "hand-e7be8ee59bbde4bd",
+    "title": "美国佬",
+    "author": "阿迪契",
+    "year": 2013,
+    "literary_movement": "后殖民文学",
+    "tags": [
+      "爱情",
+      "元小说",
+      "父权"
+    ],
+    "dimensions": {
+      "lineage": 68,
+      "contemporary": 82,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 后殖民文学"
+    ]
+  },
+  {
+    "id": "hand-e5ae89e5a89cc2b7",
+    "title": "安娜·卡列尼娜",
+    "author": "托尔斯泰",
+    "year": 1877,
+    "literary_movement": "东欧文学",
+    "tags": [
+      "时间流逝",
+      "性别",
+      "罪与罚",
+      "存在意义"
+    ],
+    "dimensions": {
+      "lineage": 92,
+      "contemporary": 49,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 东欧文学"
+    ]
+  },
+  {
+    "id": "hand-e7949fe591bde4b8",
+    "title": "生命不能承受之轻",
+    "author": "昆德拉",
+    "year": 1984,
+    "literary_movement": "东欧文学",
+    "tags": [
+      "元小说",
+      "土地",
+      "性别",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 71,
+      "contemporary": 71,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 东欧文学"
+    ]
+  },
+  {
+    "id": "hand-e7b4a2e68b89e987",
+    "title": "索拉里斯星",
+    "author": "莱姆",
+    "year": 1961,
+    "literary_movement": "东欧文学",
+    "tags": [
+      "时间流逝",
+      "存在意义",
+      "性别",
+      "革命"
+    ],
+    "dimensions": {
+      "lineage": 76,
+      "contemporary": 65,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 东欧文学"
+    ]
+  },
+  {
+    "id": "hand-e99b85e59084e4b9",
+    "title": "雅各之书",
+    "author": "托卡尔丘克",
+    "year": 2014,
+    "literary_movement": "东欧文学",
+    "tags": [
+      "存在意义",
+      "爱情"
+    ],
+    "dimensions": {
+      "lineage": 68,
+      "contemporary": 82,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 东欧文学"
+    ]
+  },
+  {
+    "id": "hand-e59f8ee5b882e4b8",
+    "title": "城市与狗",
+    "author": "略萨",
+    "year": 1963,
+    "literary_movement": "拉美文学",
+    "tags": [
+      "革命",
+      "元小说"
+    ],
+    "dimensions": {
+      "lineage": 76,
+      "contemporary": 65,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 拉美文学"
+    ]
+  },
+  {
+    "id": "hand-e98592e590a7e995",
+    "title": "酒吧长谈",
+    "author": "略萨",
+    "year": 1969,
+    "literary_movement": "拉美文学",
+    "tags": [
+      "罪与罚",
+      "性别"
+    ],
+    "dimensions": {
+      "lineage": 74,
+      "contemporary": 67,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 拉美文学"
+    ]
+  },
+  {
+    "id": "hand-e89c98e89b9be5a5",
+    "title": "蜘蛛女之吻",
+    "author": "普伊格",
+    "year": 1976,
+    "literary_movement": "拉美文学",
+    "tags": [
+      "性别",
+      "元小说"
+    ],
+    "dimensions": {
+      "lineage": 73,
+      "contemporary": 69,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 拉美文学"
+    ]
+  },
+  {
+    "id": "hand-e88d92e9878ee4be",
+    "title": "荒野侦探",
+    "author": "波拉尼奥",
+    "year": 1998,
+    "literary_movement": "拉美文学",
+    "tags": [
+      "革命",
+      "爱情"
+    ],
+    "dimensions": {
+      "lineage": 73,
+      "contemporary": 78,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 拉美文学"
+    ]
+  },
+  {
+    "id": "hand-32363636e6b3a2e6",
+    "title": "2666",
+    "author": "波拉尼奥",
+    "year": 2004,
+    "literary_movement": "拉美文学",
+    "tags": [
+      "革命",
+      "身份认同"
+    ],
+    "dimensions": {
+      "lineage": 71,
+      "contemporary": 80,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 拉美文学"
+    ]
+  },
+  {
+    "id": "hand-e8b7b3e688bfe5ad",
+    "title": "跳房子",
+    "author": "科塔萨尔",
+    "year": 1963,
+    "literary_movement": "拉美文学",
+    "tags": [
+      "爱情",
+      "友谊",
+      "罪与罚",
+      "身份认同"
+    ],
+    "dimensions": {
+      "lineage": 76,
+      "contemporary": 65,
+      "authorOther": 72,
+      "themes": 78,
+      "custom": 70
+    },
+    "links": [
+      "精选条目 · 拉美文学"
+    ]
+  }
+]

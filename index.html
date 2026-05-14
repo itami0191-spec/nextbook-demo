@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>下一本——构建自己的书目谱系</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body data-theme="light">
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="ambient-bg__books"></div>
+    <div class="ambient-bg__halftone"></div>
+  </div>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="topbar-menu">
+        <button id="topbarMenuBtn" class="theme-toggle" type="button" aria-expanded="false">菜单</button>
+        <div id="topbarMenuPanel" class="topbar-menu-panel" hidden>
+          <button id="themeToggleBtn" class="topbar-action" type="button">切换深色</button>
+          <button id="lineagePageBtn" class="topbar-action" type="button">你的书目谱系</button>
+        </div>
+      </div>
+    </header>
+
+    <section id="inputView" class="view view-active">
+      <div class="container">
+        <header class="hero">
+          <h1 class="hero-title logo-title">
+            <span class="hero-main hero-main-logo">下一本</span>
+            <span class="hero-en">NEXTBOOK</span>
+            <span class="hero-sub hero-sub-logo">— 构建你自己的书目谱系</span>
+          </h1>
+          <p>输入一本书当锚点；我们会实时请求 Open Library，从每个匹配维度随机挑一本放进书单；若填写了自定义特质，会多一维「自定义特质映射」。</p>
+        </header>
+
+        <section class="card input-card">
+          <h2>你最近看了什么？或者告诉我一本你喜欢的书</h2>
+          <p class="hint">书名按回车加入列表；生成时<strong>只认第一本</strong>当锚点，多本的话其余留着当备忘也行。</p>
+          <p class="hint">推荐输入英文书名。</p>
+
+          <div id="bookChipList" class="chip-list" aria-live="polite"></div>
+          <input id="bookInput" type="text" placeholder="例如：百年孤独（输入后按回车加入列表）" />
+
+          <h3>用户自定义本书特质（可选）</h3>
+          <p class="hint">用逗号分隔关键词，例如：冷峻, 非线性叙事, 短篇集, 思想性</p>
+          <input id="traitInput" type="text" placeholder="输入自定义特质" />
+
+          <div class="actions">
+            <button id="generateBtn" class="primary-cta" type="button">好了！下一本该看什么？</button>
+            <button id="randomGenerateBtn" class="primary-cta primary-cta--alt" type="button">随便来一本（随机推荐）</button>
+            <button id="fillDemoBtn" class="ghost" type="button">填充示例</button>
+          </div>
+          <p id="message" class="message"></p>
+        </section>
+      </div>
+    </section>
+
+    <section id="resultView" class="view view-hidden-right" aria-hidden="true">
+      <div class="container">
+        <section class="card">
+          <div class="recommend-header">
+            <div class="recommend-title-wrap">
+              <h2>推荐书单</h2>
+              <p class="hint">每个维度各一本（未填自定义特质时为 3 张，填写后为 4 张）；右上角数字是该书在该维度上的相关度。可按维度筛选只看其中一栏。</p>
+              <p id="anchorNote" class="hint recommend-anchor-note" hidden></p>
+            </div>
+            <div class="recommend-controls">
+              <label>
+                按维度筛选：
+                <select id="dimensionFilter">
+                  <option value="all">全部</option>
+                </select>
+              </label>
+              <button id="rerollBtn" class="ghost" type="button">都不想看？重来一次</button>
+              <button id="backBtn" class="ghost" type="button">返回输入页</button>
+            </div>
+          </div>
+          <div id="recommendList" class="recommend-list"></div>
+        </section>
+      </div>
+    </section>
+
+    <section id="lineageView" class="view view-hidden-right" aria-hidden="true">
+      <div class="container">
+        <section class="card lineage-card">
+          <div class="lineage-header">
+            <h2>你的书目谱系</h2>
+            <p class="hint">这里会按时间记住你输入过的书名，用自下而上的根系描线长出来；书多时相邻书名会并到同一主枝上再分到梢头。点一下书名可以选中，再点「删除选中」把它从谱系里拿掉。</p>
+          </div>
+          <div id="lineageEmpty" class="lineage-empty" hidden>还没有记录。先输入一本书生成推荐，根系就会开始长。</div>
+          <div id="lineageTree" class="lineage-tree" aria-live="polite"></div>
+          <div class="lineage-actions">
+            <button id="lineageDeleteBtn" class="ghost" type="button" disabled>删除选中</button>
+            <button id="lineageBackBtn" class="ghost" type="button">返回输入页</button>
+          </div>
+        </section>
+      </div>
+    </section>
+    <footer class="anthropic-session-footer">
+      <div class="container anthropic-session-footer__inner">
+        <label class="anthropic-session-footer__label" for="anthropicSessionKeyInput">Anthropic API Key（主题维度，可选）</label>
+        <p class="hint anthropic-session-footer__hint">
+          填写后仅保存在当前标签页的会话存储中，关闭标签页后自动清除；密钥仅在本页面向 Anthropic 发起请求时使用，不会上传到本站服务器。
+        </p>
+        <input
+          id="anthropicSessionKeyInput"
+          class="anthropic-session-footer__input"
+          type="password"
+          spellcheck="false"
+          autocomplete="off"
+          placeholder="sk-ant-api03-…"
+        />
+      </div>
+    </footer>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+
+

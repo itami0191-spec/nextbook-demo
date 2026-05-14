@@ -1,0 +1,296 @@
+[
+  {
+    "k": [
+      "love",
+      "romance",
+      "marital",
+      "divorce",
+      "wedding",
+      "affair"
+    ],
+    "t": [
+      "爱情",
+      "婚姻",
+      "失去"
+    ]
+  },
+  {
+    "k": [
+      "war",
+      "military",
+      "world war"
+    ],
+    "t": [
+      "战争",
+      "历史重压"
+    ]
+  },
+  {
+    "k": [
+      "family",
+      "domestic",
+      "parent",
+      "childhood",
+      "children"
+    ],
+    "t": [
+      "家族史",
+      "童年"
+    ]
+  },
+  {
+    "k": [
+      "father",
+      "mother",
+      "daughter",
+      "son"
+    ],
+    "t": [
+      "父权",
+      "母女关系",
+      "童年"
+    ]
+  },
+  {
+    "k": [
+      "identity",
+      "racial",
+      "ethnic",
+      "race relations"
+    ],
+    "t": [
+      "身份认同",
+      "种族"
+    ]
+  },
+  {
+    "k": [
+      "women",
+      "feminist",
+      "gender"
+    ],
+    "t": [
+      "性别",
+      "母女关系"
+    ]
+  },
+  {
+    "k": [
+      "memory",
+      "remember",
+      "nostalgia"
+    ],
+    "t": [
+      "记忆与遝忘",
+      "怀旧"
+    ]
+  },
+  {
+    "k": [
+      "death",
+      "grief",
+      "mourning",
+      "bereave"
+    ],
+    "t": [
+      "失去",
+      "存在意义"
+    ]
+  },
+  {
+    "k": [
+      "colonial",
+      "empire",
+      "postcolonial"
+    ],
+    "t": [
+      "殖民",
+      "历史重压"
+    ]
+  },
+  {
+    "k": [
+      "revolution",
+      "totalitarian",
+      "dictator"
+    ],
+    "t": [
+      "革命",
+      "极权"
+    ]
+  },
+  {
+    "k": [
+      "crime",
+      "murder",
+      "punishment",
+      "prison"
+    ],
+    "t": [
+      "罪与罚",
+      "善恶边界"
+    ]
+  },
+  {
+    "k": [
+      "myth",
+      "legend",
+      "magic",
+      "fantasy",
+      "fairy tale"
+    ],
+    "t": [
+      "神话原型",
+      "魔幻现实"
+    ]
+  },
+  {
+    "k": [
+      "religion",
+      "faith",
+      "theolog",
+      "church",
+      "god"
+    ],
+    "t": [
+      "宗教信仰"
+    ]
+  },
+  {
+    "k": [
+      "island",
+      "sea",
+      "nature",
+      "land",
+      "farm",
+      "rural"
+    ],
+    "t": [
+      "土地"
+    ]
+  },
+  {
+    "k": [
+      "trauma",
+      "abuse",
+      "healing"
+    ],
+    "t": [
+      "创伤与愈合"
+    ]
+  },
+  {
+    "k": [
+      "loneliness",
+      "alienation",
+      "isolation"
+    ],
+    "t": [
+      "孤独",
+      "异化"
+    ]
+  },
+  {
+    "k": [
+      "historical",
+      "history"
+    ],
+    "t": [
+      "历史重压",
+      "时间流逝"
+    ]
+  },
+  {
+    "k": [
+      "slavery",
+      "slave"
+    ],
+    "t": [
+      "阶级",
+      "种族"
+    ]
+  },
+  {
+    "k": [
+      "philosoph",
+      "existential"
+    ],
+    "t": [
+      "存在意义",
+      "自由意志"
+    ]
+  },
+  {
+    "k": [
+      "revenge",
+      "vengeance"
+    ],
+    "t": [
+      "复仇",
+      "命运"
+    ]
+  },
+  {
+    "k": [
+      "poetry",
+      "verse",
+      "essay"
+    ],
+    "t": [
+      "叙事本身",
+      "沉默"
+    ]
+  },
+  {
+    "k": [
+      "politic",
+      "government",
+      "propaganda"
+    ],
+    "t": [
+      "极权",
+      "革命"
+    ]
+  },
+  {
+    "k": [
+      "poverty",
+      "working class",
+      "peasant"
+    ],
+    "t": [
+      "底层生存",
+      "阶级"
+    ]
+  },
+  {
+    "k": [
+      "friendship",
+      "friends"
+    ],
+    "t": [
+      "友谊"
+    ]
+  },
+  {
+    "k": [
+      "betrayal",
+      "deceit"
+    ],
+    "t": [
+      "背叛",
+      "谎言与真实"
+    ]
+  },
+  {
+    "k": [
+      "metafiction",
+      "self-referential",
+      "self referential"
+    ],
+    "t": [
+      "元小说",
+      "叙事本身"
+    ]
+  }
+]
