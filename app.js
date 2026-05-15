@@ -275,6 +275,11 @@ function logBainianguduOlSeedIfNeeded(q0, seed) {
   else console.log("未命中");
 }
 
+/** 用户输入锚点为《百年孤独》时开启谱系维度调试（OL 返回的书名常为英文）。 */
+function isUserAnchorQueryBainiangudu(query) {
+  return normTitle(String(query || "").trim()) === normTitle("百年孤独");
+}
+
 function slugForOlTempSeed(title, author, year) {
   const raw = String(title) + "|" + String(author) + "|" + String(year);
   let h = 2166136261 >>> 0;
@@ -286,7 +291,7 @@ function slugForOlTempSeed(title, author, year) {
 }
 
 /** 用 Open Library 的 subject 映射到站内 THEMES，拼出一条临时锚点书目（仅本次会话推荐用）。 */
-function buildTemporaryBookFromOlDoc(doc, subjectsForTags) {
+function buildTemporaryBookFromOlDoc(doc, subjectsForTags, debugBainianguduQuery) {
   const title = Array.isArray(doc.title) ? doc.title[0] : doc.title;
   const authors = doc.author_name;
   const author = Array.isArray(authors) && authors.length ? authors[0] : "";
@@ -312,7 +317,8 @@ function buildTemporaryBookFromOlDoc(doc, subjectsForTags) {
     /** 锚点 Open Library 原始 subject 条目（供主题维度 Claude 提示词） */
     olAnchorSubjects: subjectsForTags.slice(0, 40).map(String),
     _fromOpenLibrary: true,
-    _temporarySeed: true
+    _temporarySeed: true,
+    ...(debugBainianguduQuery ? { _debugLineageBainiangudu: true } : {})
   };
 }
 
@@ -349,7 +355,19 @@ async function fetchOpenLibraryAnchor(query) {
     if (!title || !author) continue;
     const rawSubj = Array.isArray(doc.subject) ? doc.subject : [];
     const subjects = rawSubj.filter(s => !isMetaSubject(s)).slice(0, 80);
-    return buildTemporaryBookFromOlDoc(doc, subjects);
+    const dbgQ = isUserAnchorQueryBainiangudu(query);
+    if (dbgQ) {
+      const mv = inferLiteraryMovementFromSubjects(subjects);
+      console.log("[谱系维度·调试][用户输入《百年孤独》] ========== ① 锚点检索 ==========");
+      console.log("  Open Library search.json 请求的 fields 子集: title, author_name, first_publish_year, subject, language, key");
+      console.log("  本条命中 doc 实际含有的字段名:", Object.keys(doc));
+      console.log("  锚点 Open Library 原始 doc（JSON）:", JSON.stringify(doc, null, 2));
+      console.log("  subject 用于推断前先去掉 meta subject，截取最多 80 条；以下为前 20 条:", subjects.slice(0, 20));
+      console.log("  literary_movement（inferLiteraryMovementFromSubjects）=", JSON.stringify(mv));
+      console.log("  映射到 OL subject 检索关键字 olSubjectForLineage(...)=", JSON.stringify(olSubjectForLineage(mv)));
+      console.log("[谱系维度·调试][用户输入《百年孤独》] ========================================");
+    }
+    return buildTemporaryBookFromOlDoc(doc, subjects, dbgQ);
   }
   return null;
 }
@@ -556,6 +574,26 @@ async function fetchDimBook(dimKey, seed, traits) {
   if (dimKey === "lineage") {
     const subj = olSubjectForLineage(seed.literary_movement);
     const docs = await olSearch({ subject: subj, limit: 10 });
+    if (seed && seed._debugLineageBainiangudu) {
+      console.log("[谱系维度·调试][用户输入《百年孤独》] ========== ② 谱系维度候选池 ==========");
+      console.log("  种子 seed.literary_movement:", JSON.stringify(seed.literary_movement));
+      console.log("  olSubjectForLineage(seed.literary_movement) → olSearch 参数 subject=", JSON.stringify(subj));
+      console.log("  olSearch({ subject, limit: 10 }) 返回条数:", docs.length);
+      const rows = docs.map((d, i) => {
+        const t = olDocTitle(d);
+        const a = olDocAuthor(d);
+        let note = "";
+        if (!t || !a) note = "剔除：缺少 title 或 author_name";
+        else if (sameOlDocAsSeed(d, seed)) note = "剔除：与锚点同一本书（normTitle 比较 title 且 author）";
+        else note = "保留进 usable 候选池";
+        return { idx: i, title: t, author: a, note };
+      });
+      console.log("  每条原始命中及 usable 规则:", rows);
+      const pool = usable(docs);
+      console.log("  usable 候选池数量:", pool.length, pool.length ? pool.map(d => "《" + olDocTitle(d) + "》" + olDocAuthor(d)).join(" | ") : "(空则展示「暂无同谱系书目」)");
+      console.log("  pickOne：从 usable 中随机取一本");
+      console.log("[谱系维度·调试][用户输入《百年孤独》] ========================================");
+    }
     return pickOne(usable(docs));
   }
   const trait = traits[0];
@@ -1143,7 +1181,8 @@ async function runGenerate(isRandom = false) {
       DOM.dimensionFilter.innerHTML = '<option value="all">全部</option>';
       renderRecommendations(latestRecommendations, "all");
       return;
-    } catch {
+    } catch (err) {
+      console.error("[Nextbook] random recommendation failed", err);
       showMessage("暂时无法获取推荐，请重试");
       DOM.recommendList.innerHTML = '<p class="hint">暂时无法获取推荐，请重试</p>';
       return;
@@ -1159,7 +1198,8 @@ async function runGenerate(isRandom = false) {
 
   const q0 = selectedBookTitles[0];
   let seed;
-  try { seed = await fetchOpenLibraryAnchor(q0); } catch {
+  try { seed = await fetchOpenLibraryAnchor(q0); } catch (err) {
+    console.error("[Nextbook] anchor fetch failed", { q0 }, err);
     showMessage("暂时无法获取推荐，请重试");
     DOM.recommendList.innerHTML = '<p class="hint">暂时无法获取推荐，请重试</p>';
     return;
@@ -1171,7 +1211,8 @@ async function runGenerate(isRandom = false) {
     return;
   }
 
-  try { latestRecommendations = await buildLiveRecommendations(seed, traits); } catch {
+  try { latestRecommendations = await buildLiveRecommendations(seed, traits); } catch (err) {
+    console.error("[Nextbook] build recommendations failed", err);
     showMessage("暂时无法获取推荐，请重试");
     DOM.recommendList.innerHTML = '<p class="hint">暂时无法获取推荐，请重试</p>';
     return;
