@@ -337,7 +337,7 @@ async function fetchOpenLibraryAnchor(query) {
   u.searchParams.set("limit", "20");
   u.searchParams.set("fields", "title,author_name,first_publish_year,subject,language,key");
   const urlStr = u.toString();
-  const res = await fetch(urlStr, { headers: { "User-Agent": "NextbookDemo/1.5 (openlibrary-live)" } });
+  const res = await fetch(urlStr);
   if (!res.ok) throw new Error("Open Library HTTP " + res.status);
   const data = await res.json();
   logOpenLibrarySearchResponse("锚点检索 (fetchOpenLibraryAnchor)", urlStr, data);
@@ -524,7 +524,7 @@ async function olSearch(params) {
   }
   u.searchParams.set("fields", OL_SEARCH_FIELDS);
   const urlStr = u.toString();
-  const res = await fetch(urlStr, { headers: { "User-Agent": "NextbookDemo/1.5 (openlibrary-live)" } });
+  const res = await fetch(urlStr);
   if (!res.ok) throw new Error("Open Library HTTP " + res.status);
   const data = await res.json();
   logOpenLibrarySearchResponse("维度检索 (olSearch) params=" + JSON.stringify(params), urlStr, data);
